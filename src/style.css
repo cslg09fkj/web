@@ -1,0 +1,100 @@
+/*Home's CSS design*/
+body{
+    background-color: #B0E0E6;
+}
+a:focus,a:hover{
+    color: #f10214;
+    text-decoration: none;
+}
+.header{
+    height: 48px;
+    line-height: 48px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.header-home{
+    padding: 0 32px;
+    float: left;
+    color: #fff;
+}
+.myF{
+    float: left;
+    text-align: center;
+    margin-left: 40%;
+    color: greenyellow;
+}
+.header-user{
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    height: 34px;
+    line-height: 34px;
+}
+.header-userName{
+    color: #f10214;
+}
+.cartIcon{
+    width: 15px;
+    height: 15px;
+}
+.header-cart span{
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    display: inline-block;
+    padding: 1px;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -1px;
+    color: #E3E4E5;
+    background-color: #da1026;
+    border-radius: 7px;
+    min-width: 12px;
+    font-family: tahoma,arial;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    margin-left: 18%;
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #B0E0E6;
+}
+.mod_help_nav{
+    float: left;
+    width: 200px;
+    line-height: 30px;
+}
+.mod_help_nav_tit{
+    margin-bottom: 5px;
+    margin-right: 22%;
+}
+.footer div{
+    display: block;
+    margin-bottom: 5px;
+}
+h4{
+    display: block;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    display: list-item;
+    text-align: left;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+.footer-a a{
+    padding-right: 20px;
+}
+.footinfo{
+    color: #666;
+    margin-top: 35px;
+}
